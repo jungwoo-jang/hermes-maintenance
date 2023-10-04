@@ -10,7 +10,7 @@ from aiohttp import ClientResponse
 
 # Braze
 BRAZE_API_URL: str = "https://rest.iad-05.braze.com/users/delete"
-BRAZE_API_KEY: str = "b4bcb811-7e29-45a2-94b7-b63cd6271fc2"
+BRAZE_API_KEY: str = "215eebf9-ce77-42f6-863d-aa651bd9c546"
 MAX_EXTERNAL_IDS_PER_REQUEST: int = 50
 API_RATE_LIMIT_PER_MINUTE: int = 20000
 API_CALL_SLEEP_SECONDS: int = 60 + 10

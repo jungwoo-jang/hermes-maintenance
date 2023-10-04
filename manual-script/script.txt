@@ -1,0 +1,9 @@
+cat *.txt > null_external_ids.txt
+
+wc -l null_external_ids.txt
+
+jq -r '.external_id' null_external_ids.txt > null_external_ids.csv
+
+wc -l null_external_ids.csv
+
+head null_external_ids.csv
