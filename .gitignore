@@ -40,3 +40,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+## hermes ##
+manual-script/_venv
+manual-script/null_external_ids.csv
+.idea
